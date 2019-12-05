@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Tambah Data"
+        android:id="@+id/Tambahdata"
+        >
+    </item>
+    <item
+        android:title="Update Data"
+        android:id="@+id/Update"
+        >
+    </item>
+    <item
+        android:title="Delete Data"
+        android:id="@+id/Delete"
+        >
+    </item>
+
+</menu>

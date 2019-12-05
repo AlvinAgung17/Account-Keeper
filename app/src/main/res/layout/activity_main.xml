@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login Account Keeper"
+        android:textSize="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        ></TextView>
+
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="Username :"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="225dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/u"
+
+        ></TextView>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/u"
+        android:layout_toEndOf="@+id/u"
+        android:hint="Masukkan Username"
+        android:id="@+id/username"
+        ></EditText>
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="Password :"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/b"
+
+        ></TextView>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/b"
+        android:layout_toEndOf="@+id/b"
+        android:hint="Masukkan Password"
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        ></EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#ffffff"
+        android:background="#00574B"
+        android:textSize="15dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="175dp"
+        android:id="@+id/btnlogin"
+
+        ></Button>
+
+
+</RelativeLayout>
